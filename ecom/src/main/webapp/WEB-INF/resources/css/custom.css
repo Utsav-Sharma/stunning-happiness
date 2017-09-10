@@ -1,0 +1,185 @@
+@importurl("font-awesome.css")
+
+body{
+ background-color: ;
+
+}
+p{
+font-family: 'Open Sans', sans-serif;
+}
+h3{font-family: 'Oswald', sans-serif;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.navbar-inverse{
+	
+	opacity:0.8;
+}
+.dropdown:hover .dropdown-menu{
+    opacity:0.9;
+    
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    
+}
+#footer .social-icon > li > .icon-facebook:hover{
+	background: #4467AD;
+}
+.navbar:hover li a:hover{
+    background-color: lightgreen;
+}
+.dropdown:hover {
+    background-color: skyblue;
+}
+/* .navbar-inverse .navbar-link {
+  color: #b3b3b3;
+} */
+/* .navbar-inverse .dropdown-menu:hover {
+  color: skyblue;
+}
+ *//* .navbar-inverse .navbar-link:hover {
+  color: blue;
+} */
+.navbar-inverse .btn-link {
+  color: #b3b3b3;
+}
+.img-circle {
+  
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;}
+.btn-link:hover,
+.btn-link:focus {
+  color: #e27600;
+  text-decoration: underline;
+  background-color: transparent;
+}
+li a:hover,
+a:focus {
+ 
+  text-decoration: underline;
+}
+/* li.dropdown {
+    display: inline-block;
+} */
+
+.dropdown-menu li a:hover {background-color: skyblue}
+
+
+/* .dropdown-menu  :hover {background-color: skyblue} */
+/* li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} */
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer .social-icon > li > a > span{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 32px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -13px;
+	margin-top: -15px;
+	color: #222222;
+	-o-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#footer .social-icon > li > a:hover > span{
+	color: #ffffff;
+}
+
+#footer .social-icon > li > .icon-facebook:hover{
+	background: #4467AD;
+}
+
+#footer .social-icon > li > .icon-twitter:hover{
+	background: #4099FF;
+}
+
+#footer .social-icon > li > .icon-youtube:hover,
+#footer .social-icon > li > .icon-gplus:hover {
+	background: #FF4B4B;
+}
+
+#footer .social-icon > li > .icon-linkedin:hover{
+	background: #6e99b2;
+}
+
+#footer .social-icon > li > .icon-instagram:hover{
+	background: #B9C6D0;
+}
